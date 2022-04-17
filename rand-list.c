@@ -6,14 +6,14 @@ int main()
 {
     srand(time(NULL));
     int i;
-    int *lista;
-    lista = (int*) malloc (sizeof(int)*N);
+    int lista[N];
+
     printf("lista: ");
     for (i=0; i<N; i++)
     {
         lista[i] = rand();
         printf("%d ", lista[i]);
     }
-    free (lista);
+
     return 0;
 }
