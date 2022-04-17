@@ -14,5 +14,6 @@ int main()
         lista[i] = rand();
         printf("%d ", lista[i]);
     }
+    free (lista);
     return 0;
 }
