@@ -8,7 +8,7 @@ int main()
     int i;
     int lista[N];
 
-    printf("lista: ");
+    printf("A lista eh: ");
     for (i=0; i<N; i++)
     {
         lista[i] = rand();
